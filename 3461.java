@@ -10,7 +10,7 @@ class Solution {
            String m ="";
        for(int i =0;i<s.length()-1;i++){
            int temp = Character.getNumericValue(s.charAt(i))+Character.getNumericValue(s.charAt(i+1));
-           m=m+(Integer.valueOf(temp)%10);   
+           m=m+(temp%10);   
        }
        s=m;
        }
